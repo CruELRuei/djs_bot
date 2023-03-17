@@ -1,6 +1,6 @@
 import {SlashCommandBuilder} from 'discord.js'
 
-export const commands = new SlashCommandBuilder()
+export const command = new SlashCommandBuilder()
     .setName('ping')
     .setDescription('ping command')
 
